@@ -1,0 +1,161 @@
+body { background-image: math-background.gif; }
+
+#cal{
+
+	height: 460px;
+	width: 350px;
+	background-color: black;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	border-style: solid;
+	border-color: white;
+	align-content: center;
+	opacity: 0.8;
+}
+
+#display{
+	background-color: white;
+	height: 50px;
+	width: 280px;
+	margin-top: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	color: black;
+	font-size: 100%;
+	text-align: right;
+	font-size: 40px;
+	font-family: "Bernard MT Condensed";
+	overflow: hidden;
+}
+#back{
+
+	height: 100px;
+	width: 100px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+.Num {
+
+	height: 50px;
+	width: 50px;
+	margin-top: 20px;
+	margin-left: 15px;
+	background-color: white;
+	border-color: white;
+	padding: 5px;
+	text-align: center;
+	font-family: "Bernard MT Condensed";
+	font-size: 23px;
+	font-style: solid;
+	border-radius: 50px;
+ 	float:left;
+ 	cursor: pointer;
+}
+
+.Num:hover {
+	background-color: #f08080;
+	color:black;
+}
+
+.Op {
+
+	height: 50px;
+	width: 50px;
+	margin-left: 5px;
+	margin-top: 20px;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+}
+.Op:hover {
+	background-color: #f08080;
+	color: white;
+}
+
+.Del{
+
+	height: 50px;
+	width: 115px;
+	margin-left: 7px;
+	margin-top: 20px;
+	background-color: red;
+	color: black;
+	font-size: 25px;
+	font-style: solid;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	font-family: "Bernard MT Condensed";
+}
+.Del:hover{
+	background-color: red;
+	color: white;
+}
+.Cle{
+
+	height: 50px;
+	width: 50px;
+	margin-top: 17px;
+	margin-left: 15px;
+	border-color: white;
+	padding: 5px;
+	text-align: center;
+	font-family: "Bernard MT Condensed";
+	font-size: 23px;
+	border-radius: 50px;
+ 	float:left;
+ 	cursor: pointer;
+}
+.Cle:hover{
+	background-color: red;
+	color: white;
+}
+
+
+.Eq{
+
+	height: 50px;
+	width: 130px;
+	background-color:white;
+	color: black;
+	margin-top: 20px;
+	margin-left: 5px;
+	border-style: solid;
+	border-color: black;
+	font-size: 25px;
+	font-style: solid;
+	border-radius: 10px;
+}
+.Eq:hover{
+	background-color: #f08080;
+	color: white;
+}
+
+.po {
+
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+	margin-top: 25px;
+	background-color: white;
+	color: black;
+	border-style: solid;
+	border-color: white;
+	font-size: 20px;
+	border-radius: 50px;
+}
+.po:hover{
+
+	background-color: #f08080;
+	color: white;
+}

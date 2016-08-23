@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator :)</title>
+
+	<link rel="stylesheet" type="text/css" href="calcu.css">
+	<style type="text/css">
+		
+		body{
+		background-image: url(leng2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+
+		}
+	</style>
+</head>
+<body>
+<center>
+	<div id="cal">
+
+	<form>
+		<input type="text" id="display">
+
+		<br>
+		<input type="button" value="7" class="Num" onclick="Display('7')">
+		<input type="button" value="8" class="Num" onclick="Display('8')">
+		<input type="button" value="9" class="Num" onclick="Display('9')">
+		<input type="button" value="AC" class="Del" onclick="Display('c')">
+		<br>
+
+		<input type="button" value="4" class="Num" onclick="Display('4')">
+		<input type="button" value="5" class="Num" onclick="Display('5')">
+		<input type="button" value="6" class="Num" onclick="Display('6')">
+		<input type="button" value="+" class="Op" onclick="Display('+')">
+		<input type="button" value="*" class="Op" onclick="Display('*')">	
+		<br>
+
+		<input type="button" value="1" class="Num" onclick="Display('1')">
+		<input type="button" value="2" class="Num" onclick="Display('2')">
+		<input type="button" value="3" class="Num" onclick="Display('3')">
+		<input type="button" value="-"" class="Op"  onclick="Display('-')">
+		<input type="button" value="/" class="Op"  onclick="Display('/')">
+		<br>
+
+		<input type="button" value="." class="Num" onclick="Display('.')">
+		<input type="button" value="0" class="Num" onclick="Display('0')">
+		<input type="button" value="C" class="Cle" onclick="backspace()">
+		<input type="button" value="=" class="Eq" onclick="result()">
+ 
+	</form>
+</div>
+
+</center>
+<script src="func.js"></script>
+</body>
+</html>
